@@ -1,0 +1,46 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:rgb(213, 255, 249);
+
+}
+.Table{
+    padding: 10px;
+    background-color: antiquewhite;
+    height: 500px;
+    width: 100%;
+    border: 5px solid black;
+    border-bottom: 5px solid yellow;
+    border-top: 5px solid blue;
+    border-right: 5px solid red;
+    border-left: 5px solid green;
+    
+   
+}
+table{
+    position: relative;
+    text-align: center;
+    left: 0px;
+    
+}
+.faculty table{
+    
+    border: 2px solid black;
+    left: 0px;
+    background-color: beige;
+    width: 100%;
+   
+}
+.faculty{
+    background-color: rgb(243, 119, 119);
+    padding: 5px;
+    
+}
+.Table table{
+    border: 2px solid black;
+    width: 100%;
+}

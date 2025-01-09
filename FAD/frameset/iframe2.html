@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+        .top-section {
+            flex: 0 0 20%;
+            display: flex;
+        }
+        .bottom-section {
+            flex: 1;
+            display: flex;
+        }
+        iframe {
+            border: 1px solid black;
+        }
+        .left-frame {
+            flex: 0 0 20%;
+        }
+        .right-frame {
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-section">
+        <iframe src="top1.html" class="left-frame"></iframe>
+    </div>
+    <div class="bottom-section">
+        <iframe src="top1.html" class="left-frame"></iframe>
+        <iframe src="bottom1.html" class="right-frame"></iframe>
+    </div>
+</body>
+</html>

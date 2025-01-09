@@ -1,0 +1,25 @@
+<!-- Design a webpage having four frames named a) Top, b)Center, c)Bottom, and d) Left. The top 
+frame should contain the company logo and title. The bottom frame should contain copyright 
+information. The left frame should contain various links like Home, Products, Services, Branches, 
+About, etc., When clicked on respective links, the content should display on the center frame. -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Company Website</title>
+</head>
+<frameset rows="100px,*,50px" border="1">
+    <!-- Top Frame -->
+    <frame src="top.html" name="Top" scrolling="no">
+
+    <frameset cols="200px,*" border="1">
+        <!-- Left Frame -->
+        <frame src="left.html" name="Left">
+
+        <!-- Center Frame -->
+        <frame src="center.html" name="Tushar">
+    </frameset>
+
+    <!-- Bottom Frame -->
+    <frame src="bottom.html" name="Bottom" scrolling="no">
+</frameset>
+</html>
